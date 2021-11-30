@@ -19,6 +19,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Detector2DArray.msg"
   "msg/Fusion.msg"
   "msg/FusionTarget.msg"
+  "msg/IntList.msg"
   "msg/ObjectHypothesis.msg"
   "msg/Tracks.msg"
   "msg/TrackTarget.msg"
