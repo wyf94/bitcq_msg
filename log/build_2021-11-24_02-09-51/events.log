@@ -1,0 +1,417 @@
+[0.000000] (-) TimerEvent: {}
+[0.001013] (sort_track_msg) JobQueued: {'identifier': 'sort_track_msg', 'dependencies': OrderedDict()}
+[0.001810] (sort_track_msg) JobStarted: {'identifier': 'sort_track_msg'}
+[0.046703] (sort_track_msg) JobProgress: {'identifier': 'sort_track_msg', 'progress': 'cmake'}
+[0.049613] (sort_track_msg) JobProgress: {'identifier': 'sort_track_msg', 'progress': 'build'}
+[0.053029] (sort_track_msg) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/ros2_ws/src/sort_track_msg/build/sort_track_msg', '--', '-j8', '-l8'], 'cwd': '/root/ros2_ws/src/sort_track_msg/build/sort_track_msg', 'env': OrderedDict([('MAIL', '/var/mail/root'), ('USER', 'root'), ('SSH_CLIENT', '127.0.0.1 52684 6631'), ('LC_TIME', 'mn_MN'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/install/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/install/lib'), ('SHLVL', '1'), ('OLDPWD', '/root/ros2_ws/src/sort_track_msg/msg'), ('HOME', '/root'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'mn_MN'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install:/opt/ros/foxy/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/foxy/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'), ('LC_ADDRESS', 'mn_MN'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'mn_MN'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XAUTHORITY', '/tmp/.XAuthority'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/traffic_count:/root/ros2_ws/install/subscriber_pkg:/root/ros2_ws/install/single_stream_pkg:/root/ros2_ws/install/multi_stream_pkg:/root/ros2_ws/install/deepstream_yolo_c:/root/ros2_ws/install/deepstream_ros2_yolo:/opt/ros/foxy/install'), ('LC_NAME', 'mn_MN'), ('SHELL', '/bin/bash'), ('LC_MEASUREMENT', 'mn_MN'), ('LC_IDENTIFICATION', 'mn_MN'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/root/ros2_ws/src/sort_track_msg/build/sort_track_msg'), ('SSH_CONNECTION', '127.0.0.1 52684 127.0.0.1 6631'), ('LC_NUMERIC', 'mn_MN'), ('PYTHONPATH', '/root/ros2_ws/install/traffic_count/lib/python3.6/site-packages:/root/ros2_ws/install/subscriber_pkg/lib/python3.6/site-packages:/root/ros2_ws/install/single_stream_pkg/lib/python3.6/site-packages:/root/ros2_ws/install/multi_stream_pkg/lib/python3.6/site-packages:/root/ros2_ws/install/deepstream_ros2_yolo/lib/python3.6/site-packages:/opt/ros/foxy/install/lib/python3.6/site-packages'), ('LC_PAPER', 'mn_MN'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/deepstream_yolo_c:/opt/ros/foxy/install:/root/ros2_ws/install/traffic_count:/root/ros2_ws/install/subscriber_pkg:/root/ros2_ws/install/single_stream_pkg:/root/ros2_ws/install/multi_stream_pkg:/root/ros2_ws/install/deepstream_ros2_yolo')]), 'shell': False}
+[0.099292] (-) TimerEvent: {}
+[0.116033] (sort_track_msg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/install/share/ament_cmake/cmake)\n'}
+[0.198513] (sort_track_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[0.199299] (-) TimerEvent: {}
+[0.199701] (sort_track_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.299568] (-) TimerEvent: {}
+[0.401164] (-) TimerEvent: {}
+[0.502347] (-) TimerEvent: {}
+[0.603292] (-) TimerEvent: {}
+[0.704018] (-) TimerEvent: {}
+[0.785686] (sort_track_msg) StdoutLine: {'line': b'-- Found std_msgs: 2.0.4 (/opt/ros/foxy/install/share/std_msgs/cmake)\n'}
+[0.804143] (-) TimerEvent: {}
+[0.831153] (sort_track_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.841307] (sort_track_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/install/share/rosidl_adapter/cmake)\n'}
+[0.904354] (-) TimerEvent: {}
+[1.005241] (-) TimerEvent: {}
+[1.099993] (sort_track_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.105476] (-) TimerEvent: {}
+[1.206310] (-) TimerEvent: {}
+[1.215880] (sort_track_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/install/share/rosidl_default_generators/cmake)\n'}
+[1.306493] (-) TimerEvent: {}
+[1.328839] (sort_track_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") \n'}
+[1.406671] (-) TimerEvent: {}
+[1.507386] (-) TimerEvent: {}
+[1.608103] (-) TimerEvent: {}
+[1.709134] (-) TimerEvent: {}
+[1.810380] (-) TimerEvent: {}
+[1.811228] (sort_track_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/install/share/ament_cmake_ros/cmake)\n'}
+[1.910618] (-) TimerEvent: {}
+[2.011520] (-) TimerEvent: {}
+[2.022081] (sort_track_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.045317] (sort_track_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.111699] (-) TimerEvent: {}
+[2.141923] (sort_track_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[2.142799] (sort_track_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/install/share/python_cmake_module/cmake)\n'}
+[2.211889] (-) TimerEvent: {}
+[2.223825] (sort_track_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.224402] (sort_track_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m\n'}
+[2.224748] (sort_track_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so\n'}
+[2.312098] (-) TimerEvent: {}
+[2.413164] (-) TimerEvent: {}
+[2.515323] (-) TimerEvent: {}
+[2.616308] (-) TimerEvent: {}
+[2.654566] (sort_track_msg) StdoutLine: {'line': b'-- Using numpy include directory: /usr/local/lib/python3.6/dist-packages/numpy/core/include\n'}
+[2.679278] (sort_track_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/install/share/ament_lint_auto/cmake)\n'}
+[2.707904] (sort_track_msg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.716423] (-) TimerEvent: {}
+[2.766293] (sort_track_msg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.770710] (sort_track_msg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/ros2_ws/src/sort_track_msg/build/sort_track_msg/rosidl_generator_c>;/root/ros2_ws/src/sort_track_msg/build/sort_track_msg/rosidl_generator_c;/root/ros2_ws/src/sort_track_msg/build/sort_track_msg/rosidl_generator_cpp;/root/ros2_ws/src/sort_track_msg/build/sort_track_msg/rosidl_typesupport_fastrtps_c;/root/ros2_ws/src/sort_track_msg/build/sort_track_msg/rosidl_typesupport_fastrtps_cpp;$<BUILD_INTERFACE:/root/ros2_ws/src/sort_track_msg/build/sort_track_msg/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/root/ros2_ws/src/sort_track_msg/build/sort_track_msg/rosidl_typesupport_c>;$<BUILD_INTERFACE:/root/ros2_ws/src/sort_track_msg/build/sort_track_msg/rosidl_generator_cpp>;/root/ros2_ws/src/sort_track_msg/build/sort_track_msg/rosidl_generator_py\n'}
+[2.771288] (sort_track_msg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.816614] (-) TimerEvent: {}
+[2.825067] (sort_track_msg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.825591] (sort_track_msg) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.833053] (sort_track_msg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.847088] (sort_track_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.855092] (sort_track_msg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[2.906328] (sort_track_msg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.907098] (sort_track_msg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.913490] (sort_track_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.916723] (-) TimerEvent: {}
+[2.919132] (sort_track_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.016985] (-) TimerEvent: {}
+[3.042171] (sort_track_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[3.056131] (sort_track_msg) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/src/sort_track_msg/build/sort_track_msg\n'}
+[3.091351] (sort_track_msg) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.103096] (sort_track_msg) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.117145] (-) TimerEvent: {}
+[3.217879] (-) TimerEvent: {}
+[3.318605] (-) TimerEvent: {}
+[3.419369] (-) TimerEvent: {}
+[3.520187] (-) TimerEvent: {}
+[3.621011] (-) TimerEvent: {}
+[3.721788] (-) TimerEvent: {}
+[3.822814] (-) TimerEvent: {}
+[3.923924] (-) TimerEvent: {}
+[4.024797] (-) TimerEvent: {}
+[4.125548] (-) TimerEvent: {}
+[4.226480] (-) TimerEvent: {}
+[4.271446] (sort_track_msg) StdoutLine: {'line': b'[  3%] Built target sort_track_msg__cpp\n'}
+[4.285832] (sort_track_msg) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.286647] (sort_track_msg) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.288462] (sort_track_msg) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.326726] (-) TimerEvent: {}
+[4.353054] (sort_track_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sort_track_msg__rosidl_generator_c\x1b[0m\n'}
+[4.370940] (sort_track_msg) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/sort_track_msg__rosidl_generator_c.dir/rosidl_generator_c/sort_track_msg/msg/detail/bounding_box__functions.c.o\x1b[0m\n'}
+[4.372418] (sort_track_msg) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/sort_track_msg__rosidl_generator_c.dir/rosidl_generator_c/sort_track_msg/msg/detail/tracks__functions.c.o\x1b[0m\n'}
+[4.374404] (sort_track_msg) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/sort_track_msg__rosidl_generator_c.dir/rosidl_generator_c/sort_track_msg/msg/detail/target__functions.c.o\x1b[0m\n'}
+[4.375079] (sort_track_msg) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/sort_track_msg__rosidl_generator_c.dir/rosidl_generator_c/sort_track_msg/msg/detail/targets__functions.c.o\x1b[0m\n'}
+[4.426893] (-) TimerEvent: {}
+[4.485610] (sort_track_msg) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libsort_track_msg__rosidl_generator_c.so\x1b[0m\n'}
+[4.527136] (-) TimerEvent: {}
+[4.542491] (sort_track_msg) StdoutLine: {'line': b'[ 18%] Built target sort_track_msg__rosidl_generator_c\n'}
+[4.554172] (sort_track_msg) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.555134] (sort_track_msg) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.627307] (-) TimerEvent: {}
+[4.727923] (-) TimerEvent: {}
+[4.828617] (-) TimerEvent: {}
+[4.929290] (-) TimerEvent: {}
+[5.029972] (-) TimerEvent: {}
+[5.130803] (-) TimerEvent: {}
+[5.212004] (sort_track_msg) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/sort_track_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sort_track_msg/msg/bounding_box__type_support.cpp.o\x1b[0m\n'}
+[5.213216] (sort_track_msg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/sort_track_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sort_track_msg/msg/targets__type_support.cpp.o\x1b[0m\n'}
+[5.214484] (sort_track_msg) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/sort_track_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sort_track_msg/msg/target__type_support.cpp.o\x1b[0m\n'}
+[5.215364] (sort_track_msg) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/sort_track_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sort_track_msg/msg/tracks__type_support.cpp.o\x1b[0m\n'}
+[5.231008] (-) TimerEvent: {}
+[5.332447] (-) TimerEvent: {}
+[5.432967] (sort_track_msg) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/sort_track_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sort_track_msg/msg/detail/bounding_box__type_support.cpp.o\x1b[0m\n'}
+[5.433608] (-) TimerEvent: {}
+[5.504835] (sort_track_msg) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/sort_track_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/sort_track_msg/msg/bounding_box__type_support.cpp.o\x1b[0m\n'}
+[5.533841] (-) TimerEvent: {}
+[5.580227] (sort_track_msg) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/sort_track_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/sort_track_msg/msg/target__type_support.cpp.o\x1b[0m\n'}
+[5.617571] (sort_track_msg) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/sort_track_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sort_track_msg/msg/detail/dds_fastrtps/bounding_box__type_support.cpp.o\x1b[0m\n'}
+[5.634077] (-) TimerEvent: {}
+[5.667215] (sort_track_msg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/sort_track_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/sort_track_msg/msg/targets__type_support.cpp.o\x1b[0m\n'}
+[5.691629] (sort_track_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sort_track_msg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[5.713019] (sort_track_msg) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/sort_track_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sort_track_msg/msg/detail/bounding_box__type_support.c.o\x1b[0m\n'}
+[5.734337] (-) TimerEvent: {}
+[5.760724] (sort_track_msg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/sort_track_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/sort_track_msg/msg/tracks__type_support.cpp.o\x1b[0m\n'}
+[5.834593] (-) TimerEvent: {}
+[5.837535] (sort_track_msg) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/sort_track_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sort_track_msg/msg/detail/target__type_support.c.o\x1b[0m\n'}
+[5.867469] (sort_track_msg) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libsort_track_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.924433] (sort_track_msg) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/sort_track_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sort_track_msg/msg/detail/targets__type_support.c.o\x1b[0m\n'}
+[5.927218] (sort_track_msg) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/sort_track_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sort_track_msg/msg/detail/dds_fastrtps/target__type_support.cpp.o\x1b[0m\n'}
+[5.934771] (-) TimerEvent: {}
+[5.967390] (sort_track_msg) StdoutLine: {'line': b'[ 49%] Built target sort_track_msg__rosidl_typesupport_c\n'}
+[5.973677] (sort_track_msg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sort_track_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sort_track_msg/msg/detail/dds_fastrtps/targets__type_support.cpp.o\x1b[0m\n'}
+[5.974680] (sort_track_msg) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/sort_track_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sort_track_msg/msg/detail/dds_fastrtps/tracks__type_support.cpp.o\x1b[0m\n'}
+[5.980371] (sort_track_msg) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/sort_track_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sort_track_msg/msg/detail/tracks__type_support.c.o\x1b[0m\n'}
+[5.995427] (sort_track_msg) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libsort_track_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.035540] (-) TimerEvent: {}
+[6.055621] (sort_track_msg) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/sort_track_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sort_track_msg/msg/detail/target__type_support.cpp.o\x1b[0m\n'}
+[6.088297] (sort_track_msg) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking C shared library libsort_track_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.124148] (sort_track_msg) StdoutLine: {'line': b'[ 60%] Built target sort_track_msg__rosidl_typesupport_cpp\n'}
+[6.131704] (sort_track_msg) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/sort_track_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sort_track_msg/msg/detail/targets__type_support.cpp.o\x1b[0m\n'}
+[6.135741] (-) TimerEvent: {}
+[6.136536] (sort_track_msg) StdoutLine: {'line': b'[ 61%] Built target sort_track_msg__rosidl_typesupport_introspection_c\n'}
+[6.143969] (sort_track_msg) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/sort_track_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sort_track_msg/msg/detail/tracks__type_support.cpp.o\x1b[0m\n'}
+[6.235975] (-) TimerEvent: {}
+[6.337116] (-) TimerEvent: {}
+[6.439442] (-) TimerEvent: {}
+[6.540218] (-) TimerEvent: {}
+[6.641622] (-) TimerEvent: {}
+[6.743133] (-) TimerEvent: {}
+[6.845311] (-) TimerEvent: {}
+[6.946596] (-) TimerEvent: {}
+[6.991543] (sort_track_msg) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libsort_track_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.046820] (-) TimerEvent: {}
+[7.127383] (sort_track_msg) StdoutLine: {'line': b'[ 65%] Built target sort_track_msg__rosidl_typesupport_introspection_cpp\n'}
+[7.146996] (-) TimerEvent: {}
+[7.247823] (-) TimerEvent: {}
+[7.268948] (sort_track_msg) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libsort_track_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.348033] (-) TimerEvent: {}
+[7.435206] (sort_track_msg) StdoutLine: {'line': b'[ 67%] Built target sort_track_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[7.447854] (sort_track_msg) StdoutLine: {'line': b'[ 69%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.448496] (-) TimerEvent: {}
+[7.549269] (-) TimerEvent: {}
+[7.649977] (-) TimerEvent: {}
+[7.750744] (-) TimerEvent: {}
+[7.851470] (-) TimerEvent: {}
+[7.952201] (-) TimerEvent: {}
+[8.052961] (-) TimerEvent: {}
+[8.153659] (-) TimerEvent: {}
+[8.254416] (-) TimerEvent: {}
+[8.355189] (-) TimerEvent: {}
+[8.455885] (-) TimerEvent: {}
+[8.556548] (-) TimerEvent: {}
+[8.657321] (-) TimerEvent: {}
+[8.663632] (sort_track_msg) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/sort_track_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sort_track_msg/msg/detail/bounding_box__type_support_c.cpp.o\x1b[0m\n'}
+[8.667340] (sort_track_msg) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/sort_track_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sort_track_msg/msg/detail/target__type_support_c.cpp.o\x1b[0m\n'}
+[8.669064] (sort_track_msg) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/sort_track_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sort_track_msg/msg/detail/targets__type_support_c.cpp.o\x1b[0m\n'}
+[8.670438] (sort_track_msg) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/sort_track_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sort_track_msg/msg/detail/tracks__type_support_c.cpp.o\x1b[0m\n'}
+[8.757550] (-) TimerEvent: {}
+[8.858466] (-) TimerEvent: {}
+[8.959297] (-) TimerEvent: {}
+[9.060143] (-) TimerEvent: {}
+[9.164739] (-) TimerEvent: {}
+[9.265678] (-) TimerEvent: {}
+[9.366649] (-) TimerEvent: {}
+[9.467639] (-) TimerEvent: {}
+[9.568397] (-) TimerEvent: {}
+[9.642327] (sort_track_msg) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libsort_track_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.668601] (-) TimerEvent: {}
+[9.769476] (-) TimerEvent: {}
+[9.804698] (sort_track_msg) StdoutLine: {'line': b'[ 78%] Built target sort_track_msg__rosidl_typesupport_fastrtps_c\n'}
+[9.822590] (sort_track_msg) StdoutLine: {'line': b'[ 78%] Built target sort_track_msg\n'}
+[9.843186] (sort_track_msg) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.869769] (-) TimerEvent: {}
+[9.970826] (-) TimerEvent: {}
+[10.071576] (-) TimerEvent: {}
+[10.172406] (-) TimerEvent: {}
+[10.273260] (-) TimerEvent: {}
+[10.374341] (-) TimerEvent: {}
+[10.475057] (-) TimerEvent: {}
+[10.576250] (-) TimerEvent: {}
+[10.677164] (-) TimerEvent: {}
+[10.777947] (-) TimerEvent: {}
+[10.878740] (-) TimerEvent: {}
+[10.979642] (-) TimerEvent: {}
+[11.080794] (-) TimerEvent: {}
+[11.181549] (-) TimerEvent: {}
+[11.282545] (-) TimerEvent: {}
+[11.383340] (-) TimerEvent: {}
+[11.484238] (-) TimerEvent: {}
+[11.585013] (-) TimerEvent: {}
+[11.685728] (-) TimerEvent: {}
+[11.786440] (-) TimerEvent: {}
+[11.887154] (-) TimerEvent: {}
+[11.987960] (-) TimerEvent: {}
+[11.999142] (sort_track_msg) StdoutLine: {'line': b'[ 80%] Built target sort_track_msg__py\n'}
+[12.025093] (sort_track_msg) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/sort_track_msg__python.dir/rosidl_generator_py/sort_track_msg/msg/_target_s.c.o\x1b[0m\n'}
+[12.026065] (sort_track_msg) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/sort_track_msg__python.dir/rosidl_generator_py/sort_track_msg/msg/_bounding_box_s.c.o\x1b[0m\n'}
+[12.026497] (sort_track_msg) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/sort_track_msg__python.dir/rosidl_generator_py/sort_track_msg/msg/_targets_s.c.o\x1b[0m\n'}
+[12.026841] (sort_track_msg) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/sort_track_msg__python.dir/rosidl_generator_py/sort_track_msg/msg/_tracks_s.c.o\x1b[0m\n'}
+[12.088220] (-) TimerEvent: {}
+[12.189429] (-) TimerEvent: {}
+[12.290264] (-) TimerEvent: {}
+[12.331767] (sort_track_msg) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/sort_track_msg/libsort_track_msg__python.so\x1b[0m\n'}
+[12.390555] (-) TimerEvent: {}
+[12.395520] (sort_track_msg) StdoutLine: {'line': b'[ 89%] Built target sort_track_msg__python\n'}
+[12.417017] (sort_track_msg) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/sort_track_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/sort_track_msg/_sort_track_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[12.417771] (sort_track_msg) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/sort_track_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/sort_track_msg/_sort_track_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[12.418205] (sort_track_msg) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/sort_track_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/sort_track_msg/_sort_track_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[12.490756] (-) TimerEvent: {}
+[12.591870] (-) TimerEvent: {}
+[12.674594] (sort_track_msg) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/sort_track_msg/sort_track_msg_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so\x1b[0m\n'}
+[12.675796] (sort_track_msg) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/sort_track_msg/sort_track_msg_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so\x1b[0m\n'}
+[12.680229] (sort_track_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/sort_track_msg/sort_track_msg_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so\x1b[0m\n'}
+[12.692071] (-) TimerEvent: {}
+[12.728930] (sort_track_msg) StdoutLine: {'line': b'[100%] Built target sort_track_msg__rosidl_typesupport_c__pyext\n'}
+[12.731013] (sort_track_msg) StdoutLine: {'line': b'[100%] Built target sort_track_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[12.792346] (-) TimerEvent: {}
+[12.798952] (sort_track_msg) StdoutLine: {'line': b'[100%] Built target sort_track_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[12.812054] (sort_track_msg) CommandEnded: {'returncode': 0}
+[12.892825] (-) TimerEvent: {}
+[12.994283] (-) TimerEvent: {}
+[13.096115] (-) TimerEvent: {}
+[13.106870] (sort_track_msg) JobProgress: {'identifier': 'sort_track_msg', 'progress': 'install'}
+[13.124325] (sort_track_msg) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/root/ros2_ws/src/sort_track_msg/build/sort_track_msg'], 'cwd': '/root/ros2_ws/src/sort_track_msg/build/sort_track_msg', 'env': OrderedDict([('MAIL', '/var/mail/root'), ('USER', 'root'), ('SSH_CLIENT', '127.0.0.1 52684 6631'), ('LC_TIME', 'mn_MN'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/install/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/install/lib'), ('SHLVL', '1'), ('OLDPWD', '/root/ros2_ws/src/sort_track_msg/msg'), ('HOME', '/root'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'mn_MN'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install:/opt/ros/foxy/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/foxy/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'), ('LC_ADDRESS', 'mn_MN'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'mn_MN'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XAUTHORITY', '/tmp/.XAuthority'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/traffic_count:/root/ros2_ws/install/subscriber_pkg:/root/ros2_ws/install/single_stream_pkg:/root/ros2_ws/install/multi_stream_pkg:/root/ros2_ws/install/deepstream_yolo_c:/root/ros2_ws/install/deepstream_ros2_yolo:/opt/ros/foxy/install'), ('LC_NAME', 'mn_MN'), ('SHELL', '/bin/bash'), ('LC_MEASUREMENT', 'mn_MN'), ('LC_IDENTIFICATION', 'mn_MN'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/root/ros2_ws/src/sort_track_msg/build/sort_track_msg'), ('SSH_CONNECTION', '127.0.0.1 52684 127.0.0.1 6631'), ('LC_NUMERIC', 'mn_MN'), ('PYTHONPATH', '/root/ros2_ws/install/traffic_count/lib/python3.6/site-packages:/root/ros2_ws/install/subscriber_pkg/lib/python3.6/site-packages:/root/ros2_ws/install/single_stream_pkg/lib/python3.6/site-packages:/root/ros2_ws/install/multi_stream_pkg/lib/python3.6/site-packages:/root/ros2_ws/install/deepstream_ros2_yolo/lib/python3.6/site-packages:/opt/ros/foxy/install/lib/python3.6/site-packages'), ('LC_PAPER', 'mn_MN'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/deepstream_yolo_c:/opt/ros/foxy/install:/root/ros2_ws/install/traffic_count:/root/ros2_ws/install/subscriber_pkg:/root/ros2_ws/install/single_stream_pkg:/root/ros2_ws/install/multi_stream_pkg:/root/ros2_ws/install/deepstream_ros2_yolo')]), 'shell': False}
+[13.140703] (sort_track_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.141657] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/ament_index/resource_index/rosidl_interfaces/sort_track_msg\n'}
+[13.142129] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg\n'}
+[13.142878] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg\n'}
+[13.143435] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/targets.h\n'}
+[13.143801] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/tracks.h\n'}
+[13.144281] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/target.h\n'}
+[13.144677] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[13.145585] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail\n'}
+[13.146487] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/targets__type_support.h\n'}
+[13.147005] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/targets__functions.c\n'}
+[13.147329] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/target__functions.c\n'}
+[13.147700] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/bounding_box__functions.h\n'}
+[13.148087] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/tracks__type_support.h\n'}
+[13.148384] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/tracks__functions.h\n'}
+[13.148806] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/target__struct.h\n'}
+[13.149116] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/bounding_box__functions.c\n'}
+[13.149712] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/tracks__struct.h\n'}
+[13.150133] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/target__functions.h\n'}
+[13.150514] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/target__type_support.h\n'}
+[13.151113] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/targets__functions.h\n'}
+[13.151562] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/targets__struct.h\n'}
+[13.151956] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/bounding_box__struct.h\n'}
+[13.152392] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/bounding_box__type_support.h\n'}
+[13.152761] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/tracks__functions.c\n'}
+[13.153306] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/bounding_box.h\n'}
+[13.154089] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/environment/library_path.sh\n'}
+[13.154628] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/environment/library_path.dsv\n'}
+[13.155070] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/libsort_track_msg__rosidl_generator_c.so\n'}
+[13.155597] (sort_track_msg) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/libsort_track_msg__rosidl_generator_c.so" to ""\n'}
+[13.155913] (sort_track_msg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg\n'}
+[13.156337] (sort_track_msg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg\n'}
+[13.156584] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[13.157103] (sort_track_msg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail\n'}
+[13.157891] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/tracks__rosidl_typesupport_fastrtps_c.h\n'}
+[13.158450] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/target__rosidl_typesupport_fastrtps_c.h\n'}
+[13.159048] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/bounding_box__rosidl_typesupport_fastrtps_c.h\n'}
+[13.159510] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/targets__rosidl_typesupport_fastrtps_c.h\n'}
+[13.159817] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/libsort_track_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[13.160273] (sort_track_msg) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/libsort_track_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[13.160737] (sort_track_msg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg\n'}
+[13.161058] (sort_track_msg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg\n'}
+[13.161461] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[13.161845] (sort_track_msg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail\n'}
+[13.162292] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/bounding_box__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.162653] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/dds_fastrtps\n'}
+[13.163016] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.163515] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/tracks__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.163828] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/targets__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.164139] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/libsort_track_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.164505] (sort_track_msg) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/libsort_track_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[13.165089] (sort_track_msg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg\n'}
+[13.165557] (sort_track_msg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg\n'}
+[13.165928] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[13.166279] (sort_track_msg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail\n'}
+[13.166778] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/target__rosidl_typesupport_introspection_c.h\n'}
+[13.167250] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/tracks__rosidl_typesupport_introspection_c.h\n'}
+[13.167580] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/bounding_box__rosidl_typesupport_introspection_c.h\n'}
+[13.167958] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/tracks__type_support.c\n'}
+[13.168295] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/targets__type_support.c\n'}
+[13.168697] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/bounding_box__type_support.c\n'}
+[13.169203] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/target__type_support.c\n'}
+[13.169489] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/targets__rosidl_typesupport_introspection_c.h\n'}
+[13.169731] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/libsort_track_msg__rosidl_typesupport_introspection_c.so\n'}
+[13.169970] (sort_track_msg) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/libsort_track_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[13.170195] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/libsort_track_msg__rosidl_typesupport_c.so\n'}
+[13.170459] (sort_track_msg) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/libsort_track_msg__rosidl_typesupport_c.so" to ""\n'}
+[13.170756] (sort_track_msg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg\n'}
+[13.171007] (sort_track_msg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg\n'}
+[13.171256] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/targets.hpp\n'}
+[13.171771] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/tracks.hpp\n'}
+[13.172008] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/bounding_box.hpp\n'}
+[13.172237] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/target.hpp\n'}
+[13.172506] (sort_track_msg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail\n'}
+[13.172850] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/bounding_box__traits.hpp\n'}
+[13.173243] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/tracks__struct.hpp\n'}
+[13.173583] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/bounding_box__builder.hpp\n'}
+[13.173982] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/target__traits.hpp\n'}
+[13.174225] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/targets__builder.hpp\n'}
+[13.174579] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/target__builder.hpp\n'}
+[13.174884] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/target__struct.hpp\n'}
+[13.175166] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/tracks__builder.hpp\n'}
+[13.175403] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/targets__struct.hpp\n'}
+[13.175638] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/tracks__traits.hpp\n'}
+[13.175867] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/targets__traits.hpp\n'}
+[13.176118] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/bounding_box__struct.hpp\n'}
+[13.176390] (sort_track_msg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg\n'}
+[13.176701] (sort_track_msg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg\n'}
+[13.176982] (sort_track_msg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail\n'}
+[13.177216] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/targets__type_support.cpp\n'}
+[13.177449] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/target__type_support.cpp\n'}
+[13.177673] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/bounding_box__type_support.cpp\n'}
+[13.177898] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/tracks__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.178134] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/bounding_box__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.178384] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.178634] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/tracks__type_support.cpp\n'}
+[13.178886] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/include/sort_track_msg/msg/detail/targets__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.179173] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/libsort_track_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[13.179415] (sort_track_msg) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/libsort_track_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[13.179659] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/libsort_track_msg__rosidl_typesupport_cpp.so\n'}
+[13.179928] (sort_track_msg) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/libsort_track_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[13.180201] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/environment/pythonpath.sh\n'}
+[13.180475] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/environment/pythonpath.dsv\n'}
+[13.180799] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/python3.6/site-packages/sort_track_msg/__init__.py\n'}
+[13.196159] (-) TimerEvent: {}
+[13.279993] (sort_track_msg) StdoutLine: {'line': b"Compiling '/root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/python3.6/site-packages/sort_track_msg/__init__.py'...\n"}
+[13.292425] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/python3.6/site-packages/sort_track_msg/msg\n'}
+[13.293133] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/python3.6/site-packages/sort_track_msg/msg/_tracks.py\n'}
+[13.293557] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/python3.6/site-packages/sort_track_msg/msg/_tracks_s.c\n'}
+[13.293953] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/python3.6/site-packages/sort_track_msg/msg/_bounding_box.py\n'}
+[13.294278] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/python3.6/site-packages/sort_track_msg/msg/_target_s.c\n'}
+[13.294598] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/python3.6/site-packages/sort_track_msg/msg/_targets_s.c\n'}
+[13.294926] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/python3.6/site-packages/sort_track_msg/msg/_target.py\n'}
+[13.295319] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/python3.6/site-packages/sort_track_msg/msg/_bounding_box_s.c\n'}
+[13.295560] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/python3.6/site-packages/sort_track_msg/msg/_targets.py\n'}
+[13.295810] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/python3.6/site-packages/sort_track_msg/msg/__init__.py\n'}
+[13.297018] (-) TimerEvent: {}
+[13.297559] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/python3.6/site-packages/sort_track_msg/sort_track_msg_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[13.297908] (sort_track_msg) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/python3.6/site-packages/sort_track_msg/sort_track_msg_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so" to ""\n'}
+[13.298449] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/python3.6/site-packages/sort_track_msg/sort_track_msg_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[13.298765] (sort_track_msg) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/python3.6/site-packages/sort_track_msg/sort_track_msg_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so" to ""\n'}
+[13.299544] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/python3.6/site-packages/sort_track_msg/sort_track_msg_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[13.299963] (sort_track_msg) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/python3.6/site-packages/sort_track_msg/sort_track_msg_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so" to ""\n'}
+[13.300454] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/libsort_track_msg__python.so\n'}
+[13.301295] (sort_track_msg) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/src/sort_track_msg/install/sort_track_msg/lib/libsort_track_msg__python.so" to ""\n'}
+[13.302998] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/msg/BoundingBox.idl\n'}
+[13.303574] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/msg/Target.idl\n'}
+[13.303937] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/msg/Targets.idl\n'}
+[13.304255] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/msg/Tracks.idl\n'}
+[13.304514] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/msg/BoundingBox.msg\n'}
+[13.305076] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/msg/Target.msg\n'}
+[13.305714] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/msg/Targets.msg\n'}
+[13.306539] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/msg/Tracks.msg\n'}
+[13.307070] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/ament_index/resource_index/package_run_dependencies/sort_track_msg\n'}
+[13.307441] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/ament_index/resource_index/parent_prefix_path/sort_track_msg\n'}
+[13.307808] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/environment/ament_prefix_path.sh\n'}
+[13.308101] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/environment/ament_prefix_path.dsv\n'}
+[13.308438] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/environment/path.sh\n'}
+[13.308730] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/environment/path.dsv\n'}
+[13.309073] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/local_setup.bash\n'}
+[13.309505] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/local_setup.sh\n'}
+[13.309782] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/local_setup.zsh\n'}
+[13.310018] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/local_setup.dsv\n'}
+[13.310305] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/package.dsv\n'}
+[13.310773] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/ament_index/resource_index/packages/sort_track_msg\n'}
+[13.311021] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/cmake/sort_track_msg__rosidl_generator_cExport.cmake\n'}
+[13.311447] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/cmake/sort_track_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[13.311788] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/cmake/sort_track_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[13.312118] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/cmake/sort_track_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[13.312349] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/cmake/sort_track_msg__rosidl_typesupport_cExport.cmake\n'}
+[13.312740] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/cmake/sort_track_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[13.313078] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/cmake/sort_track_msg__rosidl_generator_cppExport.cmake\n'}
+[13.313353] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/cmake/sort_track_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[13.313682] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/cmake/sort_track_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[13.314130] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/cmake/sort_track_msg__rosidl_typesupport_cppExport.cmake\n'}
+[13.314515] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/cmake/sort_track_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[13.314902] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[13.315291] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.315698] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.316100] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.316408] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.316899] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[13.317531] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[13.317938] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/cmake/sort_track_msgConfig.cmake\n'}
+[13.318197] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/cmake/sort_track_msgConfig-version.cmake\n'}
+[13.318426] (sort_track_msg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/sort_track_msg/install/sort_track_msg/share/sort_track_msg/package.xml\n'}
+[13.322474] (sort_track_msg) CommandEnded: {'returncode': 0}
+[13.397663] (-) TimerEvent: {}
+[13.500005] (-) TimerEvent: {}
+[13.602931] (-) TimerEvent: {}
+[13.704600] (-) TimerEvent: {}
+[13.718643] (sort_track_msg) JobEnded: {'identifier': 'sort_track_msg', 'rc': 0}
+[13.724001] (-) EventReactorShutdown: {}

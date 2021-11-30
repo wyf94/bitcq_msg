@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sort_track_msg/msg/BoundingBox.msg
+// generated code does not contain a copyright notice
+
+
+module sort_track_msg {
+  module msg {
+    struct BoundingBox {
+      int16 id;
+
+      int64 xmin;
+
+      int64 ymin;
+
+      int64 xmax;
+
+      int64 ymax;
+    };
+  };
+};

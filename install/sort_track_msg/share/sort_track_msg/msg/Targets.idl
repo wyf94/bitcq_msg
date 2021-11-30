@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sort_track_msg/msg/Targets.msg
+// generated code does not contain a copyright notice
+
+#include "sort_track_msg/msg/Target.idl"
+#include "std_msgs/msg/Header.idl"
+
+module sort_track_msg {
+  module msg {
+    struct Targets {
+      std_msgs::msg::Header header;
+
+      sequence<sort_track_msg::msg::Target> data;
+    };
+  };
+};

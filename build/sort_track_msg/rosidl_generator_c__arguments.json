@@ -1,0 +1,30 @@
+{
+  "package_name": "sort_track_msg",
+  "output_dir": "/root/ros2_ws/src/sort_track_msg/build/sort_track_msg/rosidl_generator_c/sort_track_msg",
+  "template_dir": "/opt/ros/foxy/install/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/root/ros2_ws/src/sort_track_msg/build/sort_track_msg/rosidl_adapter/sort_track_msg:msg/BoundingBox.idl",
+    "/root/ros2_ws/src/sort_track_msg/build/sort_track_msg/rosidl_adapter/sort_track_msg:msg/Target.idl",
+    "/root/ros2_ws/src/sort_track_msg/build/sort_track_msg/rosidl_adapter/sort_track_msg:msg/Targets.idl",
+    "/root/ros2_ws/src/sort_track_msg/build/sort_track_msg/rosidl_adapter/sort_track_msg:msg/Tracks.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/foxy/install/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/opt/ros/foxy/install/share/rosidl_generator_c/cmake/../../../lib/python3.6/site-packages/rosidl_generator_c/__init__.py",
+    "/opt/ros/foxy/install/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/opt/ros/foxy/install/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/opt/ros/foxy/install/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/opt/ros/foxy/install/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/opt/ros/foxy/install/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/opt/ros/foxy/install/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/opt/ros/foxy/install/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/opt/ros/foxy/install/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/opt/ros/foxy/install/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/opt/ros/foxy/install/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/opt/ros/foxy/install/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/root/ros2_ws/src/sort_track_msg/build/sort_track_msg/rosidl_adapter/sort_track_msg/msg/BoundingBox.idl",
+    "/root/ros2_ws/src/sort_track_msg/build/sort_track_msg/rosidl_adapter/sort_track_msg/msg/Target.idl",
+    "/root/ros2_ws/src/sort_track_msg/build/sort_track_msg/rosidl_adapter/sort_track_msg/msg/Targets.idl",
+    "/root/ros2_ws/src/sort_track_msg/build/sort_track_msg/rosidl_adapter/sort_track_msg/msg/Tracks.idl"
+  ]
+}

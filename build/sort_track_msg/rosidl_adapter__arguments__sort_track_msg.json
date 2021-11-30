@@ -1,0 +1,9 @@
+{
+  "package_name": "sort_track_msg",
+  "non_idl_tuples": [
+    "/root/ros2_ws/src/sort_track_msg:msg/BoundingBox.msg",
+    "/root/ros2_ws/src/sort_track_msg:msg/Target.msg",
+    "/root/ros2_ws/src/sort_track_msg:msg/Targets.msg",
+    "/root/ros2_ws/src/sort_track_msg:msg/Tracks.msg"
+  ]
+}

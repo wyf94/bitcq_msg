@@ -1,0 +1,10 @@
+int16 id
+float32 x
+float32 y
+float32 vx
+float32 vy
+int64 xmin
+int64 ymin
+int64 xmax
+int64 ymax
+string target_class

@@ -1,0 +1,56 @@
+[0.057s] Invoking command in '/root/ros2_ws/src/sort_track_msg/build/sort_track_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/traffic_count:/root/ros2_ws/install/subscriber_pkg:/root/ros2_ws/install/single_stream_pkg:/root/ros2_ws/install/multi_stream_pkg:/root/ros2_ws/install/deepstream_ros2_yolo /usr/local/bin/cmake --build /root/ros2_ws/src/sort_track_msg/build/sort_track_msg -- -j8 -l8
+[0.111s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/install/share/ament_cmake/cmake)
+[0.197s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.198s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.778s] -- Found std_msgs: 2.0.4 (/opt/ros/foxy/install/share/std_msgs/cmake)
+[0.830s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.840s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/install/share/rosidl_adapter/cmake)
+[1.108s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.229s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/install/share/rosidl_default_generators/cmake)
+[1.339s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[1.696s] CMake Error at /opt/ros/foxy/install/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[1.696s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[1.697s]   sort_track_msg --arguments-file
+[1.697s]   /root/ros2_ws/src/sort_track_msg/build/sort_track_msg/rosidl_adapter__arguments__sort_track_msg.json
+[1.697s]   --output-dir
+[1.698s]   /root/ros2_ws/src/sort_track_msg/build/sort_track_msg/rosidl_adapter/sort_track_msg
+[1.698s]   --output-file
+[1.699s]   /root/ros2_ws/src/sort_track_msg/build/sort_track_msg/rosidl_adapter/sort_track_msg.idls)
+[1.699s]   returned error code 1:
+[1.700s] 
+[1.701s]   Error processing 'string Class' of 'sort_track_msg/BoundingBox': ''Class'
+[1.701s]   is an invalid field name.  It should have the pattern
+[1.701s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[1.702s] 
+[1.702s]   Traceback (most recent call last):
+[1.703s] 
+[1.703s]     File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+[1.703s]       "__main__", mod_spec)
+[1.704s]     File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+[1.704s]       exec(code, run_globals)
+[1.704s]     File "/opt/ros/foxy/install/lib/python3.6/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.705s]       sys.exit(main())
+[1.705s]     File "/opt/ros/foxy/install/lib/python3.6/site-packages/rosidl_adapter/main.py", line 55, in main
+[1.705s]       pathlib.Path(relative_path), output_dir)
+[1.706s]     File "/opt/ros/foxy/install/lib/python3.6/site-packages/rosidl_adapter/__init__.py", line 20, in convert_to_idl
+[1.706s]       package_dir, package_name, interface_file, output_dir / 'msg')
+[1.706s]     File "/opt/ros/foxy/install/lib/python3.6/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[1.707s]       msg = parse_message_string(package_name, input_file.stem, content)
+[1.707s]     File "/opt/ros/foxy/install/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 517, in parse_message_string
+[1.707s]       field_name, default_value_string))
+[1.707s]     File "/opt/ros/foxy/install/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 355, in __init__
+[1.708s]       name, VALID_FIELD_NAME_PATTERN.pattern))
+[1.708s] 
+[1.709s]   NameError: 'Class' is an invalid field name.  It should have the pattern
+[1.709s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[1.709s] 
+[1.709s] Call Stack (most recent call first):
+[1.710s]   /opt/ros/foxy/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[1.710s]   CMakeLists.txt:27 (rosidl_generate_interfaces)
+[1.710s] 
+[1.710s] 
+[1.711s] -- Configuring incomplete, errors occurred!
+[1.711s] See also "/root/ros2_ws/src/sort_track_msg/build/sort_track_msg/CMakeFiles/CMakeOutput.log".
+[1.712s] make: *** [cmake_check_build_system] Error 1
+[1.712s] Makefile:1367: recipe for target 'cmake_check_build_system' failed
+[1.717s] Invoked command in '/root/ros2_ws/src/sort_track_msg/build/sort_track_msg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/traffic_count:/root/ros2_ws/install/subscriber_pkg:/root/ros2_ws/install/single_stream_pkg:/root/ros2_ws/install/multi_stream_pkg:/root/ros2_ws/install/deepstream_ros2_yolo /usr/local/bin/cmake --build /root/ros2_ws/src/sort_track_msg/build/sort_track_msg -- -j8 -l8

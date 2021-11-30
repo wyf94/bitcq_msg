@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.001458] (sort_track_msg) JobQueued: {'identifier': 'sort_track_msg', 'dependencies': OrderedDict()}
+[0.002498] (sort_track_msg) JobStarted: {'identifier': 'sort_track_msg'}
+[0.044678] (sort_track_msg) JobProgress: {'identifier': 'sort_track_msg', 'progress': 'cmake'}
+[0.047918] (sort_track_msg) JobProgress: {'identifier': 'sort_track_msg', 'progress': 'build'}
+[0.050075] (sort_track_msg) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/ros2_ws/src/sort_track_msg/build/sort_track_msg', '--', '-j8', '-l8'], 'cwd': '/root/ros2_ws/src/sort_track_msg/build/sort_track_msg', 'env': OrderedDict([('MAIL', '/var/mail/root'), ('USER', 'root'), ('SSH_CLIENT', '127.0.0.1 52684 6631'), ('LC_TIME', 'mn_MN'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/install/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/install/lib'), ('SHLVL', '1'), ('OLDPWD', '/root/ros2_ws/src/sort_track_msg/msg'), ('HOME', '/root'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'mn_MN'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install:/opt/ros/foxy/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/foxy/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'), ('LC_ADDRESS', 'mn_MN'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'mn_MN'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XAUTHORITY', '/tmp/.XAuthority'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/traffic_count:/root/ros2_ws/install/subscriber_pkg:/root/ros2_ws/install/single_stream_pkg:/root/ros2_ws/install/multi_stream_pkg:/root/ros2_ws/install/deepstream_yolo_c:/root/ros2_ws/install/deepstream_ros2_yolo:/opt/ros/foxy/install'), ('LC_NAME', 'mn_MN'), ('SHELL', '/bin/bash'), ('LC_MEASUREMENT', 'mn_MN'), ('LC_IDENTIFICATION', 'mn_MN'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/root/ros2_ws/src/sort_track_msg/build/sort_track_msg'), ('SSH_CONNECTION', '127.0.0.1 52684 127.0.0.1 6631'), ('LC_NUMERIC', 'mn_MN'), ('PYTHONPATH', '/root/ros2_ws/install/traffic_count/lib/python3.6/site-packages:/root/ros2_ws/install/subscriber_pkg/lib/python3.6/site-packages:/root/ros2_ws/install/single_stream_pkg/lib/python3.6/site-packages:/root/ros2_ws/install/multi_stream_pkg/lib/python3.6/site-packages:/root/ros2_ws/install/deepstream_ros2_yolo/lib/python3.6/site-packages:/opt/ros/foxy/install/lib/python3.6/site-packages'), ('LC_PAPER', 'mn_MN'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/deepstream_yolo_c:/opt/ros/foxy/install:/root/ros2_ws/install/traffic_count:/root/ros2_ws/install/subscriber_pkg:/root/ros2_ws/install/single_stream_pkg:/root/ros2_ws/install/multi_stream_pkg:/root/ros2_ws/install/deepstream_ros2_yolo')]), 'shell': False}
+[0.099211] (-) TimerEvent: {}
+[0.113139] (sort_track_msg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/install/share/ament_cmake/cmake)\n'}
+[0.198857] (sort_track_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[0.200016] (-) TimerEvent: {}
+[0.200409] (sort_track_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.300199] (-) TimerEvent: {}
+[0.400908] (-) TimerEvent: {}
+[0.503630] (-) TimerEvent: {}
+[0.604436] (-) TimerEvent: {}
+[0.705148] (-) TimerEvent: {}
+[0.780369] (sort_track_msg) StdoutLine: {'line': b'-- Found std_msgs: 2.0.4 (/opt/ros/foxy/install/share/std_msgs/cmake)\n'}
+[0.805372] (-) TimerEvent: {}
+[0.832317] (sort_track_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.842073] (sort_track_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/install/share/rosidl_adapter/cmake)\n'}
+[0.905666] (-) TimerEvent: {}
+[1.006796] (-) TimerEvent: {}
+[1.107698] (-) TimerEvent: {}
+[1.109755] (sort_track_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.207912] (-) TimerEvent: {}
+[1.230655] (sort_track_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/install/share/rosidl_default_generators/cmake)\n'}
+[1.308125] (-) TimerEvent: {}
+[1.341342] (sort_track_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") \n'}
+[1.408298] (-) TimerEvent: {}
+[1.509090] (-) TimerEvent: {}
+[1.610090] (-) TimerEvent: {}
+[1.697001] (sort_track_msg) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/install/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[1.698285] (sort_track_msg) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[1.698946] (sort_track_msg) StderrLine: {'line': b'  sort_track_msg --arguments-file\n'}
+[1.699374] (sort_track_msg) StderrLine: {'line': b'  /root/ros2_ws/src/sort_track_msg/build/sort_track_msg/rosidl_adapter__arguments__sort_track_msg.json\n'}
+[1.699753] (sort_track_msg) StderrLine: {'line': b'  --output-dir\n'}
+[1.700045] (sort_track_msg) StderrLine: {'line': b'  /root/ros2_ws/src/sort_track_msg/build/sort_track_msg/rosidl_adapter/sort_track_msg\n'}
+[1.700497] (sort_track_msg) StderrLine: {'line': b'  --output-file\n'}
+[1.700849] (sort_track_msg) StderrLine: {'line': b'  /root/ros2_ws/src/sort_track_msg/build/sort_track_msg/rosidl_adapter/sort_track_msg.idls)\n'}
+[1.701298] (sort_track_msg) StderrLine: {'line': b'  returned error code 1:\n'}
+[1.701806] (sort_track_msg) StderrLine: {'line': b'\n'}
+[1.702393] (sort_track_msg) StderrLine: {'line': b"  Error processing 'string Class' of 'sort_track_msg/BoundingBox': ''Class'\n"}
+[1.703295] (sort_track_msg) StderrLine: {'line': b'  is an invalid field name.  It should have the pattern\n'}
+[1.703740] (sort_track_msg) StderrLine: {'line': b"  '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''\n"}
+[1.704102] (sort_track_msg) StderrLine: {'line': b'\n'}
+[1.704471] (sort_track_msg) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[1.704794] (sort_track_msg) StderrLine: {'line': b'\n'}
+[1.705565] (sort_track_msg) StderrLine: {'line': b'    File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main\n'}
+[1.705825] (sort_track_msg) StderrLine: {'line': b'      "__main__", mod_spec)\n'}
+[1.706102] (sort_track_msg) StderrLine: {'line': b'    File "/usr/lib/python3.6/runpy.py", line 85, in _run_code\n'}
+[1.706332] (sort_track_msg) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[1.706632] (sort_track_msg) StderrLine: {'line': b'    File "/opt/ros/foxy/install/lib/python3.6/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[1.706940] (sort_track_msg) StderrLine: {'line': b'      sys.exit(main())\n'}
+[1.707225] (sort_track_msg) StderrLine: {'line': b'    File "/opt/ros/foxy/install/lib/python3.6/site-packages/rosidl_adapter/main.py", line 55, in main\n'}
+[1.707755] (sort_track_msg) StderrLine: {'line': b'      pathlib.Path(relative_path), output_dir)\n'}
+[1.708072] (sort_track_msg) StderrLine: {'line': b'    File "/opt/ros/foxy/install/lib/python3.6/site-packages/rosidl_adapter/__init__.py", line 20, in convert_to_idl\n'}
+[1.708328] (sort_track_msg) StderrLine: {'line': b"      package_dir, package_name, interface_file, output_dir / 'msg')\n"}
+[1.708594] (sort_track_msg) StderrLine: {'line': b'    File "/opt/ros/foxy/install/lib/python3.6/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[1.708857] (sort_track_msg) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[1.709126] (sort_track_msg) StderrLine: {'line': b'    File "/opt/ros/foxy/install/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 517, in parse_message_string\n'}
+[1.709378] (sort_track_msg) StderrLine: {'line': b'      field_name, default_value_string))\n'}
+[1.709614] (sort_track_msg) StderrLine: {'line': b'    File "/opt/ros/foxy/install/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 355, in __init__\n'}
+[1.709901] (sort_track_msg) StderrLine: {'line': b'      name, VALID_FIELD_NAME_PATTERN.pattern))\n'}
+[1.710167] (-) TimerEvent: {}
+[1.710654] (sort_track_msg) StderrLine: {'line': b'\n'}
+[1.710962] (sort_track_msg) StderrLine: {'line': b"  NameError: 'Class' is an invalid field name.  It should have the pattern\n"}
+[1.711207] (sort_track_msg) StderrLine: {'line': b"  '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'\n"}
+[1.711460] (sort_track_msg) StderrLine: {'line': b'\n'}
+[1.711757] (sort_track_msg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.712014] (sort_track_msg) StderrLine: {'line': b'  /opt/ros/foxy/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[1.712259] (sort_track_msg) StderrLine: {'line': b'  CMakeLists.txt:27 (rosidl_generate_interfaces)\n'}
+[1.712531] (sort_track_msg) StderrLine: {'line': b'\n'}
+[1.712769] (sort_track_msg) StderrLine: {'line': b'\n'}
+[1.713052] (sort_track_msg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.713309] (sort_track_msg) StdoutLine: {'line': b'See also "/root/ros2_ws/src/sort_track_msg/build/sort_track_msg/CMakeFiles/CMakeOutput.log".\n'}
+[1.714146] (sort_track_msg) StderrLine: {'line': b'make: *** [cmake_check_build_system] Error 1\n'}
+[1.714691] (sort_track_msg) StdoutLine: {'line': b"Makefile:1367: recipe for target 'cmake_check_build_system' failed\n"}
+[1.718246] (sort_track_msg) CommandEnded: {'returncode': 2}
+[1.811298] (-) TimerEvent: {}
+[1.913371] (-) TimerEvent: {}
+[2.015725] (-) TimerEvent: {}
+[2.066070] (sort_track_msg) JobEnded: {'identifier': 'sort_track_msg', 'rc': 2}
+[2.079939] (-) EventReactorShutdown: {}
