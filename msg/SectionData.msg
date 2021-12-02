@@ -1,0 +1,10 @@
+string channel_num
+uint16 total_car
+uint16 a_car_flow
+uint16 b_car_flow
+uint16 c_car_flow
+float64 ratio
+float64 speed_avg 
+float64 car_len_avg
+uint16 car_head_range_avg
+uint16 car_range_avg

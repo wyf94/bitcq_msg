@@ -1,0 +1,9 @@
+string area_id 
+uint16 car_num
+float64 occupancy 
+float64 ave_car_speed 
+float64 car_distribute 
+float64 head_car_pos 
+float64 head_car_speed 
+float64 tail_car_pos 
+float64 tail_car_speed 

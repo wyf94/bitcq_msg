@@ -1,3 +1,3 @@
 std_msgs/Header header
 sensor_msgs/CompressedImage image
-Target[] radar
+FusionTarget[] radar
